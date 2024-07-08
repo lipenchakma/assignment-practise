@@ -13,10 +13,9 @@ body{
 /* banner Section style */
 
 .banner-container{
-    width: 1320px;
+    max-width: 1320px;
     margin: 0 auto;
     margin-top: 20px;
-    border: 2px solid black;
     border-radius: 15px;
     min-height: 600px;
     background-image: url(/Assets/Banner-Image.png);
@@ -45,4 +44,47 @@ body{
     color: white;
     font-size: 72px;
     font-weight: 900;
+}
+
+/* Second Section Start */
+
+.second-section-container{
+    width: 802px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.second-second-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-second-content h1{
+    color: tomato;
+    font-family: inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.second-second-content p{
+    color: tomato;
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.second-second-content h3{
+    color: rgb(7, 2, 17);
+    font-family: inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.second-image-container{
+    width: 800px;
+    height: 500px;
+}
+.second-image-container img{
+    width: 100%;
+    height: 100%;
 }
