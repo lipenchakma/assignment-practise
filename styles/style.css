@@ -10,6 +10,12 @@ body{
     font-family: "Merriweather", serif;
 }
 
+/* Share Style */
+
+#holiday{
+    color: tomato;
+}
+
 /* banner Section style */
 
 .banner-container{
@@ -87,4 +93,141 @@ body{
 .second-image-container img{
     width: 100%;
     height: 100%;
+}
+
+/* mid night party section */
+
+.mid-night-party{
+    width: 1320px;
+    height: 600px;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-image: url(../Assets/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.left-side-content{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: left;
+    
+}
+.left-side-content h1{
+   color: white;
+   font-family: Marriweather;
+   font-size: 64px;
+   font-weight: 900;
+}
+
+.left-side-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Marriweather;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: 100px;
+ }
+
+ .left-side-content .midnight-button {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+    background: none;
+    margin-right: 315px;
+ }
+
+.right-side-content{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Holyday Section */
+
+.holyday-section-container{
+    width: 1320px;
+     height: 987px;
+     border: 2px solid red;
+     margin: 0 auto;
+     position: relative;
+}
+
+.holiday-text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+}
+.holiday-text-content h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday-text-content h1{
+    font-family: Marriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-text-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.solid-color{
+    width: 1320px;
+    height: 230px;
+    background-color: red;
+    position: absolute;
+    top: 77%;
+}
+
+.gift-box{
+    width: 675px;
+    height: 577px;
+    position: relative;
+    z-index: 1;
+    display: flex;  
+}
+
+.girl-container{
+    width: 430px;
+    height: 433px;
+    position: relative;
+    left: 29%;
+    top: 11%;
+}
+
+.discount{
+    position: absolute;
+    bottom: 30%;
+    left: 55%;
+    z-index: 1;
 }
